@@ -1,9 +1,8 @@
 import React from "react";
-import JobListingPage from "./components/JobListings";
 import './App.css'
 
 
-
+import JobListingPage from "./component/JobListings";
 
 const App: React.FC = () => {
   return (
@@ -14,4 +13,3 @@ const App: React.FC = () => {
 };
 
 export default App;
-
